@@ -6,7 +6,7 @@
 %define	pdir	XML
 %define	pnam	Filter-Essex
 Summary:	XML::Handler::Essex - Essex handler object (including XML::Filter::Essex)
-#Summary(pl):	
+Summary(pl):	XML::Handler::Essex - obiekt uchwytu Essex (obejmuj±cy XML::Filter::Essex)
 Name:		perl-XML-Filter-Essex
 Version:	0.01
 Release:	1
@@ -27,8 +27,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Defines (and exports, by default) C<get()> and C<get_...()> routines
-that allow an Essex handler and filter to pull events from the SAX stream.
+Defines (and exports, by default) get() and get_...() routines that
+allow an Essex handler and filter to pull events from the SAX stream.
 
 # %description -l pl
 # TODO
