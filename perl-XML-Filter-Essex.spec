@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-Essex
+%define		pdir	XML
+%define		pnam	Filter-Essex
 Summary:	XML::Handler::Essex - Essex handler object (including XML::Filter::Essex)
 Summary(pl):	XML::Handler::Essex - obiekt uchwytu Essex (obejmuj±cy XML::Filter::Essex)
 Name:		perl-XML-Filter-Essex
