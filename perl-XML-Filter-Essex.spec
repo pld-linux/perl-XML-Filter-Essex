@@ -30,8 +30,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Defines (and exports, by default) get() and get_...() routines that
 allow an Essex handler and filter to pull events from the SAX stream.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ definiuje (i domy¶lnie eksportuje) procedury get() i get_...()
+pozwalaj±ce procedurom obs³ugi i filtrom Essex na wyci±ganie zdarzeñ
+ze strumienia SAX.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -54,10 +56,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/%{pdir}/*.pm
-%{perl_vendorlib}/%{pdir}/Essex
-%{perl_vendorlib}/%{pdir}/Filter/*
-%{perl_vendorlib}/%{pdir}/Generator/*
-%{perl_vendorlib}/%{pdir}/Handler/*
-%{perl_vendorlib}/%{pdir}/SAX/Writer/*.pm
+%{perl_vendorlib}/XML/*.pm
+%{perl_vendorlib}/XML/Essex
+%{perl_vendorlib}/XML/Filter/*
+%{perl_vendorlib}/XML/Generator/*
+%{perl_vendorlib}/XML/Handler/*
+%{perl_vendorlib}/XML/SAX/Writer/*.pm
 %{_mandir}/man3/*
