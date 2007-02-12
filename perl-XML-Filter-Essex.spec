@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-Essex
 Summary:	XML::Handler::Essex - Essex handler object (including XML::Filter::Essex)
-Summary(pl):	XML::Handler::Essex - obiekt uchwytu Essex (obejmuj±cy XML::Filter::Essex)
+Summary(pl.UTF-8):   XML::Handler::Essex - obiekt uchwytu Essex (obejmujÄ…cy XML::Filter::Essex)
 Name:		perl-XML-Filter-Essex
 Version:	0.01
 Release:	1
@@ -30,9 +30,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Defines (and exports, by default) get() and get_...() routines that
 allow an Essex handler and filter to pull events from the SAX stream.
 
-%description -l pl
-Modu³ definiuje (i domy¶lnie eksportuje) procedury get() i get_...()
-pozwalaj±ce procedurom obs³ugi i filtrom Essex na wyci±ganie zdarzeñ
+%description -l pl.UTF-8
+ModuÅ‚ definiuje (i domyÅ›lnie eksportuje) procedury get() i get_...()
+pozwalajÄ…ce procedurom obsÅ‚ugi i filtrom Essex na wyciÄ…ganie zdarzeÅ„
 ze strumienia SAX.
 
 %prep
