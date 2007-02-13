@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-Essex
 Summary:	XML::Handler::Essex - Essex handler object (including XML::Filter::Essex)
-Summary(pl.UTF-8):   XML::Handler::Essex - obiekt uchwytu Essex (obejmujący XML::Filter::Essex)
+Summary(pl.UTF-8):	XML::Handler::Essex - obiekt uchwytu Essex (obejmujący XML::Filter::Essex)
 Name:		perl-XML-Filter-Essex
 Version:	0.01
 Release:	1
