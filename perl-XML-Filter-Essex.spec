@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Filter-Essex
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Handler::Essex - Essex handler object (including XML::Filter::Essex)
 Summary(pl.UTF-8):	XML::Handler::Essex - obiekt uchwytu Essex (obejmujący XML::Filter::Essex)
 Name:		perl-XML-Filter-Essex
@@ -15,6 +15,7 @@ License:	BSD or Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	96543bde209be70cc2b0a398680cc7e7
+URL:		http://search.cpan.org/dist/XML-Filter-Essex/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
