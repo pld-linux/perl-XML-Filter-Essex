@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Filter-Essex
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Handler::Essex - Essex handler object (including XML::Filter::Essex)
 Summary(pl.UTF-8):	XML::Handler::Essex - obiekt uchwytu Essex (obejmujący XML::Filter::Essex)
 Name:		perl-XML-Filter-Essex
